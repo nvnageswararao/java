@@ -36,7 +36,6 @@
         <id>snapshots</id>
         <name>snapshots</name>
         <url>http://localhost:8080/nexus-2.14.1-01/content/repositories/snapshots//</url>
-	    <url>http://localhost:8080/tomcat9.0/webapps//</url>
     </snapshotRepository>
 </distributionManagement>
 	  
