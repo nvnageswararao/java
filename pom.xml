@@ -30,13 +30,16 @@
         </developer>
     </developers>
     <distributionManagement>
-    
-
+    <repository>
+<id>deployment</id>
+        <name>Internal Releases</name>
+        <url>http://localhost:8082/repository/maven-releases//</url>
+	    </repository>
     <snapshotRepository>
-        <id>snapshots</id>
-        <name>snapshots</name>
-        <url>http://localhost:8081/nexus-2.14.1-01/content/repositories/snapshots///</url>
-    </snapshotRepository>
+        <id>deployment</id>
+        <name>Internal Snapshot Releases</name>
+        <url>http://localhost:8082/repository/maven-snapshots//</url>
+	    </snapshotRepository>
 </distributionManagement>
 	  
     <build>
